@@ -35,7 +35,7 @@ const fetch = require("node-fetch");
             "Content-Type": "application/json"
         }
     })
-
+} 
 else {
 const embed1 = new Discord.MessageEmbed() 
 .setColor("RANDOM") 
@@ -43,7 +43,7 @@ const embed1 = new Discord.MessageEmbed()
 
 const fetch = require("node-fetch");
     const kanal = message.channel.id;
-    const mesaj = embed
+    const mesaj = embed1
     const butonmesaj = "Avatar Url"
     fetch(`https://discord.com/api/v9/channels/${kanal}/messages`, {
         method: "POST",
@@ -70,7 +70,7 @@ const fetch = require("node-fetch");
             "Content-Type": "application/json"
         }
     })
-
+} 
 } 
 exports.conf = {
 aliases: [] 
